@@ -1,0 +1,72 @@
+* {
+    background-color: rgb(255, 255, 255);
+}
+section {
+    position: relative;
+    display: line;
+    width: 100%;
+    margin: 0 auto;
+    top: 130px;
+    border: 2px solid white;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.name {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(91, 91, 91);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.links {
+    padding-top: 30px;
+    width: 70%;
+    margin: 0 auto; /*  Centra un elemento de tipo bloque */
+}
+
+a {
+    padding: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.instagram {
+    background-color: rgb(251, 144, 105);
+}
+.instagram:hover {
+    background-color: orangered;
+    position: relative;
+    bottom: 1px;
+}
+
+.facebook {
+    background-color: rgb(142, 164, 254);
+}
+.facebook:hover {
+    background-color: rgb(38, 78, 237);
+    position: relative;
+    bottom: 1px;
+}
+
+.linkedin {
+    background-color: rgb(99, 123, 220);
+}
+
+.twitter {
+    background-color: rgb(48, 200, 255);
+}
